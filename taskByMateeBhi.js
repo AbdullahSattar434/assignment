@@ -115,7 +115,7 @@ console.log("!(d!=e)", !(d!=e));
 console.log("!(6!=3)", !(d!=e));
 console.log("!(d==e)", !(d==e));
 
-alert("Operators, done!");
+//alert("Operators, done!");
 
 
 
