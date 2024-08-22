@@ -281,8 +281,116 @@ for(let no = 0; no <= 100; no++) {
 
 //c) Make a game in which user is required to guess the until, he/she guesses it right. (right no can be any number, no. which you will set.)
 
-let gameNum = 25;
-prompt("Welcome to the Game! You are required to guess the right number b/w 1 - 100")
+// let gameNum = "25"; //by default prompt considers everything as text so, whatever you want to get write in the game in case of strictly not equal to (!==), number must be given in the form of string.  
+// let userNum;
+// userNum = prompt("Welcome to the Game! You are required to guess the right number b/w 1 - 100");
+
+// while(gameNum !== userNum) {
+//     userNum= prompt("Wrong number, please try again");
+// }
+
+// console.log(gameNum, "is the right number, congratulations!");
+
+
+let str1 = "Ali";
+let str2 = 'Abdullah';
+
+console.log(str2[7]);
+console.log(str1[2]);
+console.log(str2.length);
+console.log(str1.length);
+
+
+//Template Literals (another way of writing strings and to include some embeded expressions by using "${}")
+
+//simple use
+
+let temLiterals = `Apna College`;
+
+console.log(temLiterals);
+
+//Practical and imp. use
+
+const obj = {
+     name : "book",
+     price : 10,
+
+}
+console.log("the cost of", obj.name, "is", obj.price, "rupees");
+
+//console.log(`the cost of ${obj.name} is ${obj.price} rupees`);
+
+//ABOVE STATEMENT CAN ALSO BE WRITTEN AS FOLLOWING
+
+let output = `the cost of ${obj.name} is ${obj.price} rupees`;
+console.log(output);
+
+let outPut = `the cost of book is ${1+2+3+4}`; // calculation will ne done and then it will be shown.
+console.log(outPut);
+
+let strcharactor = `Fusionbygalixo`;
+let strCharactor = `Fusion\nby\tGalixo`;
+console.log(strCharactor);
+console.log(strcharactor);
+console.log(strcharactor.length);
+console.log(strCharactor.length);
+
+
+//STRING METHODS
+
+//1) str.toUperCase()
+
+let strM = "   Fusion.AI By Galixo      "; //ion.AI B
+
+let Z = strM.toUpperCase();
+console.log(strM.toUpperCase());
+console.log(strM.toLowerCase());
+console.log(strM.trim());
+console.log(strM);
+console.log(Z);
+
+console.log(strM.slice(6,14));
+console.log(strM.concat(Z));
+Y = strM + Z;
+console.log(Y);
+
+console.log(strM.replaceAll("i","a"));
+console.log(strM.charAt(14));
+
+// RECAP
+// str.slice(4,8)
+// str1.concat(str2)
+// str.replace("a","b")
+// str.chartAt(write any number to verify which charactor is at what position in the string)
+
+//PRACTICE QUESTION FOR STRINGS..................................................................................................
+
+// let fullName = prompt("Enter your full name to generate userName.");
+
+// //let userName = "@" + fullname + fullName.length;
+
+// let userName = ("@").concat(fullName).concat(fullName.length);
+
+// console.log("Your userName is", userName);
+
+
+//CHAPTER 4 "ARRAYS"--> COLLECTION OF ITEMS(USUALLY OF SAME TYPE)................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -49,11 +49,11 @@ student["Age"] = student["Age"] + 1;
 console.log(student["fullName"]);
 console.log(student["Age"]);
 
-alert("Alert! First JS tutorial, DONE");
-console.log('111'+1);
+// alert("Alert! First JS tutorial, DONE");
+// console.log('111'+1);
 
 
-alert("Alert! 2nd tutorial is going to be started.");
+// alert("Alert! 2nd tutorial is going to be started.");
 
 
 
